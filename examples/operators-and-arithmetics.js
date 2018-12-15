@@ -47,22 +47,22 @@ console.log("false || t2 || t3 = " + (false || "t2" || "t3")); //t2
 
 
 console.log("\n");
-console.log("5 == 5 = " + (5 == 5)); //
-console.log("'5' == 5 = " + ('5' == 5)); //
-console.log("'5' === 5 = " + ('5' === 5)); //
-console.log("5 === 5 = " + (5 === 5)); //
-console.log("false == undefined = " + (false == undefined)); //
-console.log("'' == undefined = " + ('' == undefined)); //
-console.log("0 == undefined = " + (0 == undefined)); //
-console.log("null == undefined = " + (null == undefined)); //
-console.log("null == 0 = " + (null == 0)); //
-console.log("null == false = " + (null == false)); //
-console.log("null == '' = " + (null == '')); //
-console.log("false == '' = " + (false == '')); //
-console.log("0 == '' = " + (0 == '')); //
-console.log("false == 0 = " + (false == 0)); //
-console.log("false == '0' = " + (false == '0')); //
-console.log("0 == '0' = " + (0 == '0')); //
-console.log("'' == '0' = " + ('' == '0')); //
-console.log("undefined == '0' = " + (undefined == '0')); //
-console.log("null == '0' = " + (null == '0')); //
+console.log("5 == 5 = " + (5 == 5)); //true
+console.log("'5' == 5 = " + ('5' == 5)); //true
+console.log("'5' === 5 = " + ('5' === 5)); //false
+console.log("5 === 5 = " + (5 === 5)); //true
+console.log("false == undefined = " + (false == undefined)); //false
+console.log("'' == undefined = " + ('' == undefined)); //false
+console.log("0 == undefined = " + (0 == undefined)); //false
+console.log("null == undefined = " + (null == undefined)); //true
+console.log("null == 0 = " + (null == 0)); //false
+console.log("null == false = " + (null == false)); //false
+console.log("null == '' = " + (null == '')); //false
+console.log("false == '' = " + (false == '')); //true
+console.log("0 == '' = " + (0 == '')); //true
+console.log("false == 0 = " + (false == 0)); //true
+console.log("false == '0' = " + (false == '0')); //true
+console.log("0 == '0' = " + (0 == '0')); //true
+console.log("'' == '0' = " + ('' == '0')); //false
+console.log("undefined == '0' = " + (undefined == '0')); //false
+console.log("null == '0' = " + (null == '0')); //false
