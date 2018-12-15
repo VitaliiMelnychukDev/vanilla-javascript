@@ -66,3 +66,16 @@ console.log("0 == '0' = " + (0 == '0')); //true
 console.log("'' == '0' = " + ('' == '0')); //false
 console.log("undefined == '0' = " + (undefined == '0')); //false
 console.log("null == '0' = " + (null == '0')); //false
+
+
+//typeof
+console.log('\n');
+console.log("typeof(1) = " + typeof (1));//number
+console.log("typeof(1.1) = " + typeof (1.1));//number
+console.log("typeof(false) = " + typeof (false));//boolean
+console.log("typeof('test') = " + typeof ('test'));//string
+console.log("typeof(null) = " + typeof (null));//object
+console.log("typeof(undefined) = " + typeof (undefined));//undefined
+console.log("typeof(NaN) = " + typeof (NaN));//number
+console.log("typeof([1,2]) = " + typeof ([1, 2]));//object
+console.log("typeof({'test': 1}) = " + typeof ({'test': 1}));//object
