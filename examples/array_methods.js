@@ -25,46 +25,46 @@ console.log(array);//[ 'a', 'b', 'k', 'k', 'b', 'd', 'f', 'b' ]
 
 console.log("\nforEach");
 numberArray.forEach((value, index, array) => {
-    console.log(value);
+    console.log(value);// 1,2,3,4,5,6
 });
 
 console.log("\nmap");
 let arrayAfterMap = numberArray.map((value, index, array) => value * 2);
-console.log(arrayAfterMap);
+console.log(arrayAfterMap);//[ 2, 4, 6, 8, 6, 2 ]
 
 console.log("\nfilter");
 let arrayAfterFilter = numberArray.filter((value, index, array) => value > 2);
-console.log(arrayAfterFilter);
+console.log(arrayAfterFilter);//[ 3, 4, 3 ]
 
 console.log("\nreduce");
 let arraySumWithReduce = numberArray.reduce((sum, value, index, array) => sum + value);
-console.log(arraySumWithReduce);
+console.log(arraySumWithReduce);//14
 
 console.log("\nreduceRight");
 let arraySumWithReduceRight = numberArray.reduceRight((sum, value, index, array) => sum + value);
-console.log(arraySumWithReduceRight);
+console.log(arraySumWithReduceRight);//14
 
 console.log("\nevery");
 let arrayEvery = numberArray.every((value, index, array) => value < 10);
-console.log(arrayEvery);
+console.log(arrayEvery);//true
 arrayEvery = numberArray.every((value, index, array) => value < 4);
-console.log(arrayEvery);
+console.log(arrayEvery);//false
 
 console.log("\nsome");
 let arraySome = numberArray.some((value, index, array) => value < 10);
-console.log(arraySome);
+console.log(arraySome);//true
 arraySome = numberArray.some((value, index, array) => value < 4);
-console.log(arraySome);
+console.log(arraySome);//true
 
 console.log("\nindexOf");
-console.log(numberArray.indexOf(3));
+console.log(numberArray.indexOf(3));//2
 
 console.log("\nlastIndexOf");
-console.log(numberArray.lastIndexOf(3));
+console.log(numberArray.lastIndexOf(3));//4
 
 console.log("\nfind");
-console.log(numberArray.find((value, index, array) => value > 3));
+console.log(numberArray.find((value, index, array) => value > 3));//4
 
 console.log("\nfindIndex");
-console.log(numberArray.findIndex((value, index, array) => value > 3));
+console.log(numberArray.findIndex((value, index, array) => value > 3));//3
 
