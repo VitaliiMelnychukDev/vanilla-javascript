@@ -1,4 +1,3 @@
-
 /*
  *  1. Scope. Let variables are block scoped. Let variables are available in blocks were they were defined.
  */
@@ -38,11 +37,15 @@ let testLet = 1;
 console.log("\nVariables in loops:");
 
 for (var i = 0; i < 3; i++) {
-    setTimeout(() => { console.log(i) }, 10);
+    setTimeout(() => {
+        console.log(i);
+    }, 10);
 }
 
-setTimeout( () => {
+setTimeout(() => {
     for (let j = 0; j < 3; j++) {
-        setTimeout(() => { console.log(j) }, 10);
+        setTimeout(() => {
+            console.log(j);
+        }, 10);
     }
 }, 100);
