@@ -101,3 +101,59 @@ article .article-detail .detail-value {
 article .article-content {
     text-indent: 30px;
 }
+
+#form-wrapper {
+    padding: 20px 0;
+    background-color: #1F333D;
+}
+
+#email-form {
+    margin: 0 20%;
+    width: 60%;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #466;
+}
+
+#email-form .input-wrapper {
+    padding: 5px 20px;
+}
+
+#email-form .input-wrapper input {
+    width: 100%;
+    height: 30px;
+    border: 2px solid grey;
+    border-radius: 7px;
+}
+
+#email-form .input-wrapper .input-onfocus {
+    border-color: #1F333D;
+}
+
+#email-form .input-wrapper .input-error {
+    border-color: red !important;
+}
+
+#email-form .button-wrapper {
+    padding: 5px 20px;
+}
+#email-form .input-wrapper .hint {
+    color: orangered;;
+}
+
+#email-form .button-wrapper input {
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    min-width: 100px;
+    text-align: center;
+    height: 30px;
+    border: 2px solid grey;
+    border-radius: 7px;
+    background-color: #15232E;
+    color: #fefefe;
+    height: 45px;
+    font-size: 20px;
+    cursor: pointer;
+}
