@@ -1,0 +1,66 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper {
+    width: 100%;
+    color: #fefefe;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: #15232E;
+}
+
+header h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+main {
+    background-color: #1F333D;
+    padding: 10px;
+    display: flex;
+}
+
+#left-menu {
+    width: 250px;
+}
+
+#left-menu ul {
+    padding: 20px;
+    list-style-type: circle;
+}
+
+#left-menu ul li {
+    padding: 5px;
+    position: relative;
+}
+
+#left-menu ul li .movie-headline {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+article {
+    width: 100%;
+    padding: 10px;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #15232E;
+}
+
+article .movie-html {
+    text-indent: 30px;
+    text-align: justify;
+    padding: 5px 20px;
+}
